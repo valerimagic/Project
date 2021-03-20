@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Airflights.Models.Passengers.Entities
 {
-    class Passenger
+    public class Passenger
     {
     }
 }
