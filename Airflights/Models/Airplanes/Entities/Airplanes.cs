@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Airflights.Models.Airplanes.Entities
 {
-    class Airplanes
+    public class Airplanes
     {
+        
+
     }
 }
