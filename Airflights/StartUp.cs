@@ -1,8 +1,10 @@
-﻿using System;
+﻿using System.Linq;
 using Airflights.Core.Contracts;
 using Airflights.Core.Entities;
 using Airflights.IO;
 using Airflights.IO.Contracts;
+using DAL.DataContext;
+using Microsoft.EntityFrameworkCore;
 
 namespace Airflights
 {
@@ -10,6 +12,12 @@ namespace Airflights
     {
         public static void Main(string[] args)
         {
+
+            using var db = new AirflightDbContext();
+
+            db.Database.Migrate();
+
+
             IAirFlights controller = new AirflightsController();
             IReader reader = new ConsoleReader();
             IWriter writer = new ConsoleWriter();
@@ -17,7 +25,7 @@ namespace Airflights
             Engine engine = new Engine(controller, reader, writer);
             engine.Run();
 
-            //IPlayer player = new Player();
+            
         }
     }
 }
