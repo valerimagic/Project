@@ -6,13 +6,13 @@ namespace Airflights.Core.Contracts
 {
     public interface IAirFlights
     {
-        string CreateAirplane();
+        string CreateAirplane(string model, string serialNumber);
 
         string RemoveAirplane();
 
-        string CreateFlights();
+        string CreateFlight();
 
-        string RemoveFlights();
+        string RemoveFlight();
 
 
 
