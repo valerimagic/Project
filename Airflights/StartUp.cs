@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Airflights.Core;
 using Airflights.Core.Contracts;
 using Airflights.Core.Entities;
 using Airflights.IO;
@@ -18,7 +19,7 @@ namespace Airflights
             db.Database.Migrate();
 
 
-            IAirFlights controller = new AirflightsController();
+            IAirFlightsController controller = new AirflightsController();
             IReader reader = new ConsoleReader();
             IWriter writer = new ConsoleWriter();
 

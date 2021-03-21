@@ -5,17 +5,20 @@ using Airflights.Core.Contracts;
 using Airflights.IO.Contracts;
 using Airflights.Core;
 using Airflights.Core.Entities;
+using DAL.DataContext;
+using DAL.Entities;
+
 
 namespace Airflights.Core.Entities
 {
     public class Engine
     {
 
-        private readonly IAirFlights controller;
+        private readonly IAirFlightsController controller;
         private readonly IReader reader;
         private readonly IWriter writer;
 
-        public Engine(IAirFlights airflightController, IReader reader, IWriter writer)
+        public Engine(IAirFlightsController airflightController, IReader reader, IWriter writer)
         {
             this.controller = airflightController;
             this.reader = reader;
@@ -48,10 +51,24 @@ namespace Airflights.Core.Entities
 
                     if (inputType == "CreateFlight")
                     {
-                        resultMessage = this.controller.CreateFlight(input[1], input[2], input[3]);
+                        resultMessage = this.controller.CreateFlight(input[1], input[2], input[3], int.Parse(input[4]));
                     }
 
-
+                    if (inputType == "SelectAirplane")
+                    {
+                        var element = this.controller.SelectAirplane(input[1]);
+                        foreach (var item in element)
+                        {
+                            this.writer.WriteLine($"Airplane {item.Model}, SerialNumber {item.SerialNumber}");
+                        }
+                    }
+                    if (inputType == "SelectAllFlight")
+                    {
+                        foreach (var item in this.controller.SelectAllFlight())
+                        {
+                            this.writer.WriteLine($"Flight with number {item.FlightNumber} from {item.Departure} to {item.Arrival}");
+                        }
+                    }
 
 
 

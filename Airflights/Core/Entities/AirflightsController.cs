@@ -7,12 +7,11 @@ using DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using Airflights.Core.Contracts;
 using Airflights.Utilities.Messages;
-//using Airflights.Models.Airplanes.Entities;
-//using Airplanes = Airflights.Models.Airplanes.Entities.Airplanes;
+
 
 namespace Airflights.Core
 {
-    public class AirflightsController : IAirFlights
+    public class AirflightsController : IAirFlightsController
     {
         private AirflightDbContext context;
         string[] input;
@@ -22,15 +21,15 @@ namespace Airflights.Core
             this.context = new AirflightDbContext();
         }
 
-        //public List<Airplanes> SelectAirplane(string name)
-        //{
-        //    return this.context.Airplane.Include(x => x.Flights).ToList();
-        //}
+        public List<Airplanes> SelectAirplane(string name)
+        {
+            return this.context.Airplane.Include(x => x.Flights).ToList();
+        }
 
-        //public List<Contacts> SelectAllContatcts()
-        //{
-        //    return this.context.Contacts.ToList();
-        //}
+        public List<Flights> SelectAllFlight()
+        {
+            return this.context.Flight.ToList();
+        }
 
 
         public string CreateAirplane(string model, string serialNumber)
@@ -46,15 +45,20 @@ namespace Airflights.Core
             return string.Format(OutputMessages.AirPlaneCreated, model);
         }
 
-        public string RemoveAirplane()
-        {
-            throw new NotImplementedException();
-        }
 
-        public string CreateFlight(string flightNumber, string Departure, string arrival)
+        public string CreateFlight(string flightNumber, string departure, string arrival, int flightId)
         {
-            return string.Format(OutputMessages.AirPlaneCreated, flightNumber);
-            //throw new NotImplementedException();
+            Flights flight = new Flights()
+            {
+                FlightNumber = flightNumber,
+                Departure = departure,
+                Arrival = arrival,
+                AirplaneId = this.context.Airplane.Where(x => x.ID == flightId).FirstOrDefault()
+            };
+            this.context.Flight.Add(flight);
+            this.context.SaveChanges();
+
+            return string.Format(OutputMessages.FlightCreated, departure, arrival);
         }
 
         public string RemoveFlight()
@@ -62,7 +66,7 @@ namespace Airflights.Core
             throw new NotImplementedException();
         }
 
-        public string CreateAirplane()
+        public string RemoveAirplane()
         {
             throw new NotImplementedException();
         }

@@ -1,0 +1,12 @@
+E:\VS2019 GitHub\Projects\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+E:\VS2019 GitHub\Projects\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+E:\VS2019 GitHub\Projects\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+E:\VS2019 GitHub\Projects\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\VS2019 GitHub\Projects\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\VS2019 GitHub\Projects\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+E:\VS2019 GitHub\Projects\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+E:\VS2019 GitHub\Projects\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+E:\VS2019 GitHub\Projects\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+E:\VS2019 GitHub\Projects\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+E:\VS2019 GitHub\Projects\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+E:\VS2019 GitHub\Projects\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
