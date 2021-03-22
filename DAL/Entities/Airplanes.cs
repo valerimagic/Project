@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-using Newtonsoft.Json;
-
-namespace DAL.Entities
+﻿namespace DAL.Entities
 {
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+
     public class Airplanes : BaseClass
     {
         [Required]

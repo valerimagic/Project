@@ -1,19 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Airflights.Core.Contracts;
-using Airflights.IO.Contracts;
-using Airflights.Core;
-using Airflights.Core.Entities;
-using DAL.DataContext;
-using DAL.Entities;
-
-
-namespace Airflights.Core.Entities
+﻿namespace Airflights.Core.Entities
 {
+    using System;
+    using Airflights.Core.Contracts;
+    using Airflights.IO.Contracts;
+
     public class Engine
     {
-
         private readonly IAirFlightsController controller;
         private readonly IReader reader;
         private readonly IWriter writer;
@@ -31,18 +23,12 @@ namespace Airflights.Core.Entities
 
             while (command != "End")
             {
-
-
-
                 try
                 {
 
                     string[] input = command.Split();
                     var inputType = input[0];
                     string resultMessage = string.Empty;
-
-
-
 
                     if (inputType == "CreateAirplane")
                     {
@@ -62,6 +48,7 @@ namespace Airflights.Core.Entities
                             this.writer.WriteLine($"Airplane {item.Model}, SerialNumber {item.SerialNumber}");
                         }
                     }
+
                     if (inputType == "SelectAllFlight")
                     {
                         foreach (var item in this.controller.SelectAllFlight())
@@ -70,19 +57,6 @@ namespace Airflights.Core.Entities
                         }
                     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                     this.writer.WriteLine(resultMessage);
                 }
                 catch (Exception e)
@@ -90,14 +64,8 @@ namespace Airflights.Core.Entities
                     this.writer.WriteLine(e.Message);
                 }
 
-
                 command = this.reader.ReadLine();
-
             }
-
-
         }
-
     }
-
 }

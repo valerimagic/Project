@@ -1,7 +1,6 @@
 ﻿namespace Airflights.IO
 {
     using System;
-
     using Contracts;
 
     public class ConsoleWriter : IWriter

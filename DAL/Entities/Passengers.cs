@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-
-namespace DAL.Entities
+﻿namespace DAL.Entities
 {
+    using System.ComponentModel.DataAnnotations;
+
     public class Passengers : BaseClass
     {
         [Required]
@@ -24,6 +21,5 @@ namespace DAL.Entities
         public string LuggageKg { get; set; }
 
         public Flights FlightId { get; set; }
-
     }
 }

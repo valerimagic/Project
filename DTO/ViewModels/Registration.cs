@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
-
-namespace DTO.ViewModels
+﻿namespace DTO.ViewModels
 {
+    using System.ComponentModel;
+
     public class Registration : UserViewModel
     {
         [DisplayName("First name")]
@@ -18,6 +15,5 @@ namespace DTO.ViewModels
 
         [DisplayName("Phone number")]
         public string Phone { get; set; }
-
     }
 }

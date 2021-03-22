@@ -1,21 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DAL.DataContext;
-using DTO.ViewModels;
-using Microsoft.AspNetCore.Http;
-
-namespace AirflightWEB.Controllers
+﻿namespace AirflightWEB.Controllers
 {
+    using System.Linq;
+    using DAL.DataContext;
+    using DTO.ViewModels;
+    using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Mvc;
+
     public class LoginController : Controller
     {
         private AirflightDbContext context;
 
         public LoginController()
         {
-            context = new AirflightDbContext();
+            this.context = new AirflightDbContext();
         }
 
         [HttpGet]

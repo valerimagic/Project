@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-
-namespace DAL.Entities
+﻿namespace DAL.Entities
 {
+    using System.ComponentModel.DataAnnotations;
+
     public class BaseClass
     {
-        [Key] 
+        [Key]
         public int ID { get; set; }
     }
 }

@@ -1,5 +1,3 @@
-using System;
-
 namespace AirflightWEB.Models
 {
     public class ErrorViewModel

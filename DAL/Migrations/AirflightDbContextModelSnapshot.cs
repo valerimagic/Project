@@ -113,6 +113,43 @@ namespace DAL.Migrations
                     b.ToTable("Passenger");
                 });
 
+            modelBuilder.Entity("DAL.Entities.RegistrationDetail", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("AirplaneID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("AirplaneID");
+
+                    b.ToTable("RegistrationDetails");
+                });
+
             modelBuilder.Entity("DAL.Entities.Flights", b =>
                 {
                     b.HasOne("DAL.Entities.Airplanes", "AirplaneId")
@@ -129,6 +166,15 @@ namespace DAL.Migrations
                         .HasForeignKey("FlightIdID");
 
                     b.Navigation("FlightId");
+                });
+
+            modelBuilder.Entity("DAL.Entities.RegistrationDetail", b =>
+                {
+                    b.HasOne("DAL.Entities.Airplanes", "Airplane")
+                        .WithMany()
+                        .HasForeignKey("AirplaneID");
+
+                    b.Navigation("Airplane");
                 });
 
             modelBuilder.Entity("DAL.Entities.Airplanes", b =>

@@ -158,9 +158,11 @@ E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\AirflightWEB.cspr
 E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\AirflightWEB.dll
 E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\AirflightWEB.pdb
 E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\AirflightWEB.genruntimeconfig.cache
-E:\VS2019 GitHub\Projects\AirflightWEB\bin\Debug\netcoreapp3.1\DTO.exe
 E:\VS2019 GitHub\Projects\AirflightWEB\bin\Debug\netcoreapp3.1\DTO.dll
 E:\VS2019 GitHub\Projects\AirflightWEB\bin\Debug\netcoreapp3.1\DTO.pdb
 E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\Razor\Views\Login\LoginController.cshtml.g.cs
 E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\Razor\Views\Registraton\Index.cshtml.g.cs
 E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+E:\VS2019 GitHub\Projects\AirflightWEB\bin\Debug\netcoreapp3.1\Humanizer.dll
+E:\VS2019 GitHub\Projects\AirflightWEB\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\VS2019 GitHub\Projects\AirflightWEB\obj\Debug\netcoreapp3.1\Razor\Views\Flight\Index.cshtml.g.cs

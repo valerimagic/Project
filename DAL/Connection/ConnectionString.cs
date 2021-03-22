@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DAL.Connection
+﻿namespace DAL.Connection
 {
     public class ConnectionString
     {

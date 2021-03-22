@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DAL.DataContext;
-using DAL.Entities;
-using Microsoft.EntityFrameworkCore;
-using Airflights.Core.Contracts;
-using Airflights.Utilities.Messages;
-
-
-namespace Airflights.Core
+﻿namespace Airflights.Core
 {
+    using Airflights.Core.Contracts;
+    using Airflights.Utilities.Messages;
+    using DAL.DataContext;
+    using DAL.Entities;
+    using Microsoft.EntityFrameworkCore;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class AirflightsController : IAirFlightsController
     {
         private AirflightDbContext context;
@@ -31,7 +29,6 @@ namespace Airflights.Core
             return this.context.Flight.ToList();
         }
 
-
         public string CreateAirplane(string model, string serialNumber)
         {
             var airplane = new Airplanes()
@@ -44,7 +41,6 @@ namespace Airflights.Core
 
             return string.Format(OutputMessages.AirPlaneCreated, model);
         }
-
 
         public string CreateFlight(string flightNumber, string departure, string arrival, int flightId)
         {

@@ -1,20 +1,18 @@
-﻿using DAL.Connection;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using DAL.Entities;
-
-namespace DAL.DataContext
+﻿namespace DAL.DataContext
 {
+    using DAL.Connection;
+    using DAL.Entities;
+    using Microsoft.EntityFrameworkCore;
+
     public class AirflightDbContext : DbContext
     {
         public DbSet<Airplanes> Airplane { get; set; }
+
         public DbSet<Flights> Flight { get; set; }
+
         public DbSet<Passengers> Passenger { get; set; }
 
-
-
+        public DbSet<RegistrationDetail> RegistrationDetails { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,7 +24,6 @@ namespace DAL.DataContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
         }
     }
 }
