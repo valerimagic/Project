@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pwf5dJkIqYyzbQ/q1Jck5aur6ljJXAX7eLFIh9/Yk8EHdTW97mGQ3DbhgelI1uGQs1d8jhKqyuzmT0OC85DqVw==",
+  "dgSpecHash": "K8IR8napjN++oe4f7G+Ky5ok+9iJloPfPlB15XWnMCZI3YdqTscqhwmRItL7UVs8PNrK4Vljy6pj7JTfQMhg/w==",
   "success": true,
-  "projectFilePath": "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj",
+  "projectFilePath": "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valeri\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Valeri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

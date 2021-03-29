@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS2019 GitHub\\Projects\\DTO\\DTO.csproj",
+      "projectUniqueName": "E:\\VS2019 GitHub\\Airflyght\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "E:\\VS2019 GitHub\\Projects\\DTO\\DTO.csproj",
+      "projectPath": "E:\\VS2019 GitHub\\Airflyght\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\Valeri\\.nuget\\packages\\",
-      "outputPath": "E:\\VS2019 GitHub\\Projects\\DTO\\obj\\",
+      "outputPath": "E:\\VS2019 GitHub\\Airflyght\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Valeri\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6107,11 +6107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS2019 GitHub\\Projects\\Airflights\\Airflights.csproj",
+      "projectUniqueName": "E:\\VS2019 GitHub\\Airflyght\\Airflights\\Airflights.csproj",
       "projectName": "Airflights",
-      "projectPath": "E:\\VS2019 GitHub\\Projects\\Airflights\\Airflights.csproj",
+      "projectPath": "E:\\VS2019 GitHub\\Airflyght\\Airflights\\Airflights.csproj",
       "packagesPath": "C:\\Users\\Valeri\\.nuget\\packages\\",
-      "outputPath": "E:\\VS2019 GitHub\\Projects\\Airflights\\obj\\",
+      "outputPath": "E:\\VS2019 GitHub\\Airflyght\\Airflights\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Valeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6128,8 +6128,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj": {
-              "projectPath": "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj"
+            "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj": {
+              "projectPath": "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj"
             }
           }
         }

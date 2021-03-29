@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj": {}
+    "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj": {
+    "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj",
+        "projectPath": "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Valeri\\.nuget\\packages\\",
-        "outputPath": "E:\\VS2019 GitHub\\Projects\\DAL\\obj\\",
+        "outputPath": "E:\\VS2019 GitHub\\Airflyght\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Valeri\\AppData\\Roaming\\NuGet\\NuGet.Config",

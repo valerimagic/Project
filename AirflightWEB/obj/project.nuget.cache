@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s1uhlbvdP0KQaqzFZWZZ7qamysUuZhJgDWJGN/lnvO+YpewtFGkbfvPEEUbo5oS++HOkcnYoJWHtGFOFwzJQ8Q==",
+  "dgSpecHash": "4GAsfNsD4EToHzt0sb99DTCrN3cgD10E/MbUnXuoN7S2nGQ1c87TfQgI+8x/rrvlLCdG0hYr8jsVzzsY3PAGJA==",
   "success": true,
-  "projectFilePath": "E:\\VS2019 GitHub\\Projects\\AirflightWEB\\AirflightWEB.csproj",
+  "projectFilePath": "E:\\VS2019 GitHub\\Airflyght\\AirflightWEB\\AirflightWEB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valeri\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Valeri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

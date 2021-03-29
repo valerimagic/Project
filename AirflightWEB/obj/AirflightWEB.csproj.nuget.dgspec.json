@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS2019 GitHub\\Projects\\AirflightWEB\\AirflightWEB.csproj": {}
+    "E:\\VS2019 GitHub\\Airflyght\\AirflightWEB\\AirflightWEB.csproj": {}
   },
   "projects": {
-    "E:\\VS2019 GitHub\\Projects\\AirflightWEB\\AirflightWEB.csproj": {
+    "E:\\VS2019 GitHub\\Airflyght\\AirflightWEB\\AirflightWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS2019 GitHub\\Projects\\AirflightWEB\\AirflightWEB.csproj",
+        "projectUniqueName": "E:\\VS2019 GitHub\\Airflyght\\AirflightWEB\\AirflightWEB.csproj",
         "projectName": "AirflightWEB",
-        "projectPath": "E:\\VS2019 GitHub\\Projects\\AirflightWEB\\AirflightWEB.csproj",
+        "projectPath": "E:\\VS2019 GitHub\\Airflyght\\AirflightWEB\\AirflightWEB.csproj",
         "packagesPath": "C:\\Users\\Valeri\\.nuget\\packages\\",
-        "outputPath": "E:\\VS2019 GitHub\\Projects\\AirflightWEB\\obj\\",
+        "outputPath": "E:\\VS2019 GitHub\\Airflyght\\AirflightWEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Valeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj": {
-                "projectPath": "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj"
+              "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj"
               },
-              "E:\\VS2019 GitHub\\Projects\\DTO\\DTO.csproj": {
-                "projectPath": "E:\\VS2019 GitHub\\Projects\\DTO\\DTO.csproj"
+              "E:\\VS2019 GitHub\\Airflyght\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\VS2019 GitHub\\Airflyght\\DTO\\DTO.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj": {
+    "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\VS2019 GitHub\\Projects\\DAL\\DAL.csproj",
+        "projectPath": "E:\\VS2019 GitHub\\Airflyght\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Valeri\\.nuget\\packages\\",
-        "outputPath": "E:\\VS2019 GitHub\\Projects\\DAL\\obj\\",
+        "outputPath": "E:\\VS2019 GitHub\\Airflyght\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Valeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,14 +160,14 @@
         }
       }
     },
-    "E:\\VS2019 GitHub\\Projects\\DTO\\DTO.csproj": {
+    "E:\\VS2019 GitHub\\Airflyght\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS2019 GitHub\\Projects\\DTO\\DTO.csproj",
+        "projectUniqueName": "E:\\VS2019 GitHub\\Airflyght\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "E:\\VS2019 GitHub\\Projects\\DTO\\DTO.csproj",
+        "projectPath": "E:\\VS2019 GitHub\\Airflyght\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Valeri\\.nuget\\packages\\",
-        "outputPath": "E:\\VS2019 GitHub\\Projects\\DTO\\obj\\",
+        "outputPath": "E:\\VS2019 GitHub\\Airflyght\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Valeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
